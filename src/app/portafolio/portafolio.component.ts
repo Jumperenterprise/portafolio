@@ -11,8 +11,9 @@ export class PortafolioComponent implements OnInit {
 
   images: string[] = [
     'assets/imagenes/Batatabit.png',
-    'assets/imagenes/Batatabit.png',
-    'assets/imagenes/Batatabit.png'
+    'assets/imagenes/Rick-Morty.png',
+    'assets/imagenes/E-market.png',
+    'assets/imagenes/blog.png'
   ];
 
   constructor() {}

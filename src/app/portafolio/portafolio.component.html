@@ -1,5 +1,5 @@
-<app-header></app-header>
-<div class="container px-5">
+<app-nav></app-nav>
+<div class="container-fluid px-5">
   <ngb-carousel *ngIf="images">
     <ng-template ngbSlide>
       <div class="picsum-img-wrapper">
@@ -26,6 +26,15 @@
       <div class="carousel-caption">
         <h3>Third slide label</h3>
         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      </div>
+    </ng-template>
+    <ng-template ngbSlide>
+      <div class="picsum-img-wrapper">
+        <img class="img-fluid" [src]="images[3]" alt="Random fourth slide">
+      </div>
+      <div class="carousel-caption">
+        <h3>First slide label</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
       </div>
     </ng-template>
   </ngb-carousel>

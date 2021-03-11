@@ -7,7 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainContentComponent implements OnInit {
 
-  headerImg = ['../../assets/header.png','header_Img'];
 
   aboutImg = ['../../assets/ux.png' , 'about_Img'];
 
