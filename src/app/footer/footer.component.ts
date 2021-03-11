@@ -10,9 +10,9 @@ export class FooterComponent implements OnInit {
   socialIcons = [
     '../../assets/icons/icon-github.png',
     '../../assets/icons/icon-twitter.png',
-    '../../assets/icons/icon-linkeind.png',
-    '../../assets/icons/icon-github.png',
-    '../../assets/icons/icon-github.png'
+    '../../assets/icons/icon-linkedin.png',
+    '../../assets/icons/icons-instagram.png',
+    '../../assets/icons/icon-youtube.png'
   ];
 
   constructor() { }

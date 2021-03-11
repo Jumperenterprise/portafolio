@@ -1,2 +1,138 @@
 <app-header></app-header>
-<p>about works!</p>
+<div class="container bg-primary bg-gradient">
+  <div class="row">
+    <div class="col-sm py-5 pl-5">
+      <img src="{{ thumb }}" class="img-thumbnail" alt="..." />
+    </div>
+    <div class="col-sm py-5 pr-5">
+      <h1 class="text-white text-uppercase fw-bold">Andrew Alfaro</h1>
+      <h2 class="text-secondary text-uppercase fw-bolder">
+        Front-End & Web Developer
+      </h2>
+    </div>
+  </div>
+</div>
+<div class="container bg-secondary mb-4">
+  <div class="row">
+    <div class="text-center py-5">
+      <h3>Resume</h3>
+      <p>My Bio Date Details</p>
+    </div>
+  </div>
+  <div class="row p-5">
+    <h3 class="text-white">Work Experience</h3>
+    <div class="container">
+      <div class="row">
+        <ngb-accordion #acc="ngbAccordion" activeIds="config-panel-one">
+          <ngb-panel title="2019 - 2021 | CEO - Front-End - FullStack - Web Designer " id="config-panel-one">
+            <ng-template ngbPanelContent>
+              <p class="fs-6">AquaFunCR - San Jose, Costa Rica</p>
+              <p>
+                Creación de Aquafun como una Pymes, desa
+                rrolle su logo con Adobe Ilustrator. Campanas
+                de marketing digital para dar a conocer la
+                marca, manejo de sus redes sociales y conte
+                nido para publicitar la marca. Desarrollo de
+                aplicación web con Angular como Framework y
+                conectado a firebase para recolectar datos de
+                los formularios. Desarrollo de App Móvil con el
+                fin de manejar correctamente la base de datos
+                de nuestros clientes.
+              </p>
+            </ng-template>
+          </ngb-panel>
+          <ngb-panel title="2019 - 2021 | Front-End - Web Developer">
+            <ng-template ngbPanelContent>
+              <p class="fs-6">Federacion de Parkour Costa Rica</p>
+              <p>
+                Creación de Aquafun como una Pymes, desa
+                rrolle su logo con Adobe Ilustrator. Campanas
+                de marketing digital para dar a conocer la
+                marca, manejo de sus redes sociales y conte
+                nido para publicitar la marca. Desarrollo de
+                aplicación web con Angular como Framework y
+                conectado a firebase para recolectar datos de
+                los formularios. Desarrollo de App Móvil con el
+                fin de manejar correctamente la base de datos
+                de nuestros clientes.
+              </p>
+            </ng-template>
+          </ngb-panel>
+          <ngb-panel title="2019 - 2020 | International Parkour Federation">
+            <ng-template ngbPanelContent>
+              <p class="fs-6">Web Designer</p>
+              <p>
+                Rework de varias secciones de la página,
+                usando como plataforma WordPress desarro
+                llando una interfaz más versátil y agradable a
+                la vista con las herramientas HTML y CSS.
+              </p>
+            </ng-template>
+          </ngb-panel>
+        </ngb-accordion>
+      </div>
+    </div>
+  </div>
+  <div class="row p-5">
+    <h2 class="text-white-50 py-5">What I'm doing</h2>
+    <div class="col-sm">
+      <div class="row p-5">
+        <img src={{icons[0]}} alt="" />
+        <h3 class="text-white">Web Design</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, ex
+          laborum. Nisi exercitationem ducimus optio.
+        </p>
+      </div>
+    </div>
+    <div class="col-sm">
+      <div class="row p-5">
+        <img src={{icons[1]}} alt="" />
+        <h3 class="text-white">Web Development</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, ex
+          laborum. Nisi exercitationem ducimus optio.
+        </p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <div class="row p-5">
+          <img src={{icons[2]}} alt="" />
+          <h3 class="text-white">Mobile Apps</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, ex
+            laborum. Nisi exercitationem ducimus optio.
+          </p>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="row p-5">
+          <img src={{icons[3]}} alt="" />
+          <h3 class="text-white">JavaScript Development</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit, ex
+            laborum. Nisi exercitationem ducimus optio.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row py-5">
+    <div class="card bg-secondary">
+      <div class="card-header">
+        Info
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Do you have a project for me?</h5>
+        <p class="card-text">Do not hesitate to contact me to start building your great idea!</p>
+        <div class="d-flex justify-content-around">
+          <a href="#" class="btn btn-primary"> <img src={{contactIcons[2]}} alt=""> Email</a>
+          <a href="#" class="btn btn-primary"> <img src={{contactIcons[1]}} alt=""> Phone Number</a>
+          <a href="#" class="btn btn-primary"> <img src={{contactIcons[0]}} alt=""> Whatsapp</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>
